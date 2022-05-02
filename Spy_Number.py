@@ -8,7 +8,8 @@ while(num>0):
     sum=sum+d
     product=product*d
     num=num//10
-if (sum==product):
-    print("Spy Number")
+    
+if(sum==product):
+    print('Spy Number')
 else:
-    print("Not Spy Number")
+    print('Not Spy Number')
