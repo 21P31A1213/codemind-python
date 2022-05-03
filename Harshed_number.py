@@ -1,14 +1,11 @@
-number=int(input())
-sum=0
-rem=0
-
-temp=number
-while temp>0:
-    rem=temp%10
-    sum=sum+rem
-    temp=temp//10
-    
-if number%sum==0:
+n=int(input())
+s=0
+a=n
+while n>0:
+    r=n%10
+    s=s+r
+    n=n//10
+if a%s==0:
     print('True')
 else:
     print('False')
