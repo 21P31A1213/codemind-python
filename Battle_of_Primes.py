@@ -5,10 +5,10 @@ def prime(a):
             if(a%i)==0:
                 c=1
                 break
-    if c==0:
-        return 0
-    else:
-        return 1
+        if c==0:
+            return 0
+        else:
+            return 1
 n=int(input())
 m=int(input())
 s=n+m+1
